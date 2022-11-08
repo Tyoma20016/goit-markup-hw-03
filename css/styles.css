@@ -73,7 +73,6 @@ ul
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;
-    outline: 1px solid red;
 }
 
 img {
@@ -479,6 +478,7 @@ img {
     color: var(--color-HexachromeBlack);
     text-decoration: none;
 }
+
 .program-text{
     margin-top: 0;
     margin-bottom: 0;
@@ -488,6 +488,7 @@ img {
     color: #757575;
     letter-spacing: 0.03em;
 }
+
 .program-link{
     text-decoration: none;
 }
