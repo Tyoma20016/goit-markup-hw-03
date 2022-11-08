@@ -73,6 +73,7 @@ ul
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;
+    outline: 1px solid red;
 }
 
 img {
@@ -492,7 +493,7 @@ img {
 }
 
 .border{
-    width: 320px;
+    width: 370px;
     border: 1px solid #EEEEEE;
     padding: 20px 24px;
     border-top: 0;
