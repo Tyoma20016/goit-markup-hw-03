@@ -2,19 +2,7 @@ html{
     box-sizing: border-box;
     }
 
-    /* *, 
-    *::before, 
-    *::after{
-        box-sizing: inherit;
-    } */
-
-    /* *,
-*::before,
-*::after {
-  box-sizing: border-box;
-} */
-
-/* Решта коду */
+    
 
 
 :root{
@@ -73,6 +61,7 @@ ul
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;
+    outline: 1px solid red;
 }
 
 img {
@@ -417,6 +406,7 @@ img {
     cursor: pointer;
 }
 
+
 .button-tipe{
     padding: 6px 22px;
     flex-wrap: wrap;
@@ -426,7 +416,12 @@ img {
     background: #F5F4FA;
     text-align: center;
     cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    color: #212121;
+
 }
+
 
 .button.list{
     display: flex;
@@ -439,8 +434,8 @@ img {
 }
 
 .button-tipe.in{
-    padding: 6px 25px;
-}
+    padding: 6px 25px;}
+
 
 
 .button-tipe:hover,
@@ -458,7 +453,7 @@ img {
 }
 
 .program-uptitle{
-    padding-top: 35px;
+    margin-top: 35px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -467,7 +462,6 @@ img {
 }
 
 .program-list{
-    margin-top: 0;
     margin-bottom: 4px;
 
 
@@ -480,9 +474,10 @@ img {
 }
 
 .program-text{
-    margin-top: 0;
+    /* margin-top: 0; */
     margin-bottom: 0;
 
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
     color: #757575;
